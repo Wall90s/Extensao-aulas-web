@@ -1,0 +1,16 @@
+.ipt {
+    background-color: aquamarine;
+    color: black;
+    font-size: 16pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    border-radius: 5px;
+}
+
+#botaoLogin {
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+    font-size: 16pt;    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
