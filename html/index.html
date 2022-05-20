@@ -6,13 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML, CSS e JS</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../css/index.css">
 </head>
 
-<body>
-    <input type="text" class="ipt" id="inputUsuario" placeholder="usuário">
-    <input type="password" class="ipt" id="inputSenha" placeholder="senha">
-    <button id="botaoLogin" onclick="Login()">Login</button>
+<body id="pagina">
+    <div id="fundoLogin">
+        <p>Para acessar, realize o login da sua conta:</p>
+        <input type="text" class="ipt" id="inputUsuario" placeholder="usuário">
+        <br>
+        <br>
+        <input type="password" class="ipt" id="inputSenha" placeholder="senha">
+        <br>        
+        <p><i><u>Primeiro acesso? Clique aqui para cadastrar</u></i></p>
+        <br>
+        <button id="botaoLogin" onclick="Login()">Login</button>
+    </div>
 </body>
 <script src="../HTML-CSS-JS/js/index.js"></script>
 
